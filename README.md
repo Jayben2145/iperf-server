@@ -30,7 +30,7 @@ stream {
 }
 ```
 - In `nginx-iperf.conf`, adjust:  
-  - `listen 5201 reuseport;` → change if you want a different public port.  
+  - `listen 5201 reuseport;` → change if you want a different public port.  b
   - `upstream iperf3_backend` servers → match the ports created by the script (defaults: 5000-5019).  
 - Reload Nginx: `nginx -s reload`
 
